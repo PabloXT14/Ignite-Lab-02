@@ -51,8 +51,8 @@ export function Video({ lessonSlug }: VideoProps) {
 
     if(!data) {
         return(
-            <div className="flex-1">
-                <p>
+            <div className="flex-1 flex items-center justify-center">
+                <p className="text-xl font-bold text-blue-500">
                     Carregando...
                 </p>
             </div>
